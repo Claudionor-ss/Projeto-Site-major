@@ -1,5 +1,6 @@
-#top{
-    padding-left: 630px;
+.top{
+    text-align: center;
+    margin: 0 auto;
 }
 .body{
     background:linear-gradient(rgb(230, 20, 20),rgb(71, 71, 221), black);
@@ -10,9 +11,9 @@
     height: 400px;
     margin: 0 auto;
 }
-#times{
-    padding-left: 325px;
-    margin: 150px;
+.times{
+    text-align: center;
+    margin: 10px auto;
     
 }
 
@@ -23,21 +24,24 @@
     font-weight: bold;
     font-style: italic;
    
-    margin-left: 620px;
+    margin: 0 auto;
     border: solid;
     width: 650px;
     
 }
       
 .video{
-       
+    text-align: center;
     float: left;
-    margin: 240px   
+    margin: 20px auto;  
+    padding-left: 232px;
     
 }
 .video2{
     
-margin: 240px
+text-align: center;
+margin: 20px auto;
+padding-right: 0px;
 
 }
 
