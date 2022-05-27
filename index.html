@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+       
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="principal.css">
         <meta name="viewport" content="width=device-width">
-        <title>www.csgo.com.br/mundial/</title>      
+        <title>www.csgo.com.br/mundial/</title>   
+        <style>
+            .gradient{
+                align-items: center;
+                background:linear-gradient(45deg,rgb(230, 20, 20),rgb(71, 71, 221), black);
+                background-size: 300% 300% ;
+                animation:colors 5s ease infinite;
+            }
+            @keyframes colors{
+                0%{
+                    background-position: 0 50%;
+
+                }
+                50%{
+                    background-position:   100% 50%;
+
+                }
+                100%{
+                    background-position: 0% 50%;
+                     
+
+                }
+            }
+        </style>   
     </head>
     <header class="top", textalign="center">
         
         <img src="logotopo.png">
     
     </header>
-    <body class="body">
+    <body class="gradient">
+        
         <img id="banner"src="major.jpg">
         
         <div class="times">
