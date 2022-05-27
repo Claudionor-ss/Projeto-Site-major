@@ -1,6 +1,8 @@
 .top{
+    height: 490gitpx;
     text-align: center;
     margin: 0 auto;
+    
 }
 .body{
     background:linear-gradient(rgb(230, 20, 20),rgb(71, 71, 221), black);
