@@ -17,7 +17,7 @@ nav li{
 }
 nav a{
     text-transform: uppercase;
-    color: black;
+    color:white;
     font-weight: bold;
     font-size: 30px;
     text-decoration: none;
@@ -117,8 +117,10 @@ footer {
     font-weight: bold;
     font-size: 30px;
     padding: 100px;
+    color: white;
 }
 .descricao p{
+    color: white;
     font-size: 22px;
     font-style: italic;
     text-align: center;
@@ -133,4 +135,39 @@ footer {
 }
 .negrito{
     font-weight: bold;
+}
+.meiojogo{
+    
+    background-image:url(8K.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    
+    
+}
+.bodylive{
+    background-image:url(jogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.videolive{
+    padding: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.meiolive h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: white;
+
+
+}
+.meiolive p{
+    font-size: 22px;
+    color: white;
+    text-align: center;
 }
