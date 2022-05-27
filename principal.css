@@ -2,7 +2,31 @@
     height: 490gitpx;
     text-align: center;
     margin: 0 auto;
+    padding: 40px;
     
+}
+nav {
+    position: relative;
+       
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+     
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+nav a:hover{
+    color:black;
+    text-decoration: underline;
+    border: solid;
+    border-radius: 5%;
 }
 
 
@@ -83,4 +107,30 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
- 
+
+
+
+
+/* inicio jogo.html */
+.descricao h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 100px;
+}
+.descricao p{
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+    padding: 1.5mm;
+    margin: 5px;
+}
+.campeao{
+    text-align: center;
+}
+.brasilcampeao{
+    text-align: center;
+}
+.negrito{
+    font-weight: bold;
+}
